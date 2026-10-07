@@ -1,0 +1,67 @@
+body{
+              background-image: linear-gradient( rgb(216, 212, 212) , rgb(41, 101, 105));
+              background-repeat: no-repeat;
+              height: 1300px;
+}
+.container{
+              display: flex;
+              gap: 30px;
+              justify-content: center;
+              align-items: center;
+              height: 900px;
+              flex-wrap: wrap;
+              text-align: center;
+}
+.container div:hover{
+              box-shadow: 0px  10px 10px rgb(3, 65, 56);
+}
+.cardpic{
+              width: 400px;
+              height: 230px;
+              border-radius: 20px;
+}
+.circle{
+              height: 50px;
+              border-radius: 50%;
+              margin-left: 50px;
+              margin-top: 10px;
+              width: 50px;
+}
+button{
+              width: 150px;
+              height: 60px;
+              border: none;
+              background-image: linear-gradient(to right , #a2a2af,#1c989c);
+              color: white;
+              border-radius: 30px;
+              font-size: 20px;
+              margin-left: 50px;
+}
+.container div{
+              background-color: white;
+              width: 440px;
+              border-radius: 20px;
+}
+h1{
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 35px;
+}
+h2{
+              font-size: 22px;
+}
+span{
+              color: gray;
+              font-weight: 100px;
+              gap: 20px;
+}
+.contect{
+              display: flex;
+              gap: 20px;
+}
+p{
+              color: grey;
+              font-size: 17px;
+}
+.icons{
+              margin-left: 1300px;
+}
